@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+/* PRODUCTS */
+.products {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card button:disabled {
+    background: gray;
+}
+
+/* CART */
+.cart {
+    width: 30%;
+    margin-left: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+button.small {
+    padding: 3px 6px;
+    margin: 2px;
+}
