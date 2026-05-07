@@ -18,7 +18,7 @@ function displayProducts() {
         const inCart = cart.find(item => item.id === product.id);
 
         productList.innerHTML += `
-            <div class="card">
+            <div class="product">
                 <h2>${product.emoji}</h2>
                 <h3>${product.name}</h3>
                 <p>₱${product.price}</p>
